@@ -1,3 +1,25 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.gradient-stroke {
+  -webkit-text-fill-color: transparent; /* Keeps the text fill transparent */
+  -webkit-text-stroke-width: 3px; /* Defines stroke thickness */
+  -webkit-text-stroke-color: transparent; /* No default color for stroke */
+  background: linear-gradient(
+    to right,
+    black,
+    darkgray,
+    #1a1a1a,
+    #4b4b4b
+  ); /* Dark gradient colors */
+  background-clip: text; /* Clips the gradient to text */
+  -webkit-background-clip: text;
+  color: transparent; /* Ensures the text remains transparent */
+}
+
+
+/* Apply grayscale only in dark mode */
+.cloud-illustration {
+  filter: grayscale(100%) brightness(40%);
+}
