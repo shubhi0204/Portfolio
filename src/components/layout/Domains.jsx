@@ -3,7 +3,7 @@ import React from "react";
 const Domains = () => {
   return (
     // Wrapper
-    <div className="w-[100vw] h-[80dvh] mt-[-6rem]">
+    <div className="w-[100vw] h-[80dvh] mt-[-10rem]">
       {/* Big dibba */}
       <div className="w-full h-full mx-auto flex justify-between items-center">
         {/* Chota dibba -- 1 */}
@@ -17,7 +17,7 @@ const Domains = () => {
           </div>
         </div>
         {/* Chota dibba -- 2 */}
-        <div className="w-[25%] h-full flex-shrink-0 bg-[url('/public/drawables/domain_design.jpg')] bg-center bg-cover object-contain object-center relative overflow-clip">
+        <div className="w-[25%] h-full flex-shrink-0 bg-[url('/public/drawables/domain_design.jpg')] bg-center bg-cover object-contain object-center relative overflow-clip opacity-50">
           <div className="absolute h-full inset-0 bg-gradient-to-b from-transparent via-[#000000ec] to-black opacity-90">
             &nbsp;
           </div>
@@ -25,7 +25,7 @@ const Domains = () => {
             <img
               src="/drawables/1.svg"
               alt="1_icon"
-              className="bg-center bg-contain object-contain object-fill mt-24 h-[24rem] w-auto bg-center bg-cover object-fill object-center ml-[-6.4rem]"
+              className="bg-center bg-contain object-contain object-fill mt-24 h-[24rem] w-auto bg-center bg-cover object-fill object-center ml-[-6.4rem] opacity-40"
             />
 
             <p className="text-[2.4rem] text-stone-100 absolute left-6 bottom-12">
@@ -35,7 +35,7 @@ const Domains = () => {
         </div>
 
         {/* Chota dibba -- 3 */}
-        <div className="w-[25%] h-full flex-shrink-0 bg-[url('/public/drawables/domain_code.jpg')] bg-center bg-contain object-contain object-center relative overflow-clip">
+        <div className="w-[25%] h-full flex-shrink-0 bg-[url('/public/drawables/domain_code.jpg')] bg-center bg-contain object-contain object-center relative overflow-clip opacity-60">
           <div className="absolute h-full inset-0 bg-gradient-to-b from-transparent via-[#000000ec] to-black opacity-90">
             &nbsp;
           </div>
@@ -47,7 +47,7 @@ const Domains = () => {
             <img
               src="/drawables/2.svg"
               alt="1_icon"
-              className="bg-center bg-contain object-contain object-fill mt-24 h-[24rem] w-auto bg-center bg-contain object-contain object-center ml-[-6.4rem]"
+              className="bg-center bg-contain object-contain object-fill mt-24 h-[24rem] w-auto bg-center bg-contain object-contain object-center ml-[-6.4rem] opacity-50"
             />
 
             <p className="text-[2.4rem] text-stone-100 absolute left-6 bottom-12">
@@ -57,8 +57,8 @@ const Domains = () => {
         </div>
 
         {/* Chota dibba -- 4 */}
-        <div className="w-[25%] h-full flex-shrink-0 bg-[url('/public/drawables/domain_deploy.jpg')] bg-center bg-cover object-contain object-center relative overflow-clip">
-          <div className="absolute h-full inset-0 bg-gradient-to-b from-transparent via-[#000000ec] to-black opacity-90">
+        <div className="w-[25%] h-full flex-shrink-0 bg-[url('/public/drawables/domain_deploy.jpg')] bg-center bg-cover object-contain object-center relative overflow-clip opacity-70">
+          <div className="absolute h-full inset-0 bg-gradient-to-b from-transparent via-[#000000ec] to-black">
             &nbsp;
           </div>
           <div className="flex flex-col w-full">
@@ -69,7 +69,7 @@ const Domains = () => {
             <img
               src="/drawables/3.svg"
               alt="1_icon"
-              className="bg-center bg-contain object-contain object-fill mt-24 h-[24rem] w-auto bg-center bg-cover object-cover object-center ml-[-6.4rem]"
+              className="bg-center bg-contain object-contain object-fill mt-24 h-[24rem] w-auto bg-center bg-cover object-cover object-center ml-[-6.4rem] opacity-70"
             />
 
             <p className="text-[2.4rem] text-stone-100 absolute left-6 bottom-12">

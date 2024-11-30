@@ -1,6 +1,9 @@
 import React from "react";
 
 const HeroHeader = () => {
+  /* 
+    JSX
+  */
   return (
     <div className="w-[100vw] h-[100dvh]">
       <img
@@ -17,7 +20,7 @@ const HeroHeader = () => {
         <div className="flex justify-between items-center">
           <span className="font-semibold text-xl text-stone-100">Shubhangi</span>
           <div className="flex justify-between items-center space-x-10 !text-stone-100">
-            <button className="text-lg">Education</button>
+            <button className="text-lg">Domains</button>
             <button className="text-lg">Skills</button>
             <button className="text-lg">Projects</button>
             <button className="text-lg">Recommendations</button>
