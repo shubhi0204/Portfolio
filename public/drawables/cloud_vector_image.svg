@@ -1,8 +1,8 @@
 <svg width="854" height="570" viewBox="0 0 854 570" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="cloudGradient" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#8A2BE2;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#4B0082;stop-opacity:1" />
+      <stop offset="0%" style="stop-color:#FF69B4;stop-opacity:1" /> <!-- Hot Pink -->
+      <stop offset="100%" style="stop-color:#FFC0CB;stop-opacity:1" /> <!-- Light Pink -->
     </linearGradient>
   </defs>
   <path d="M688.537 214.923C676.585 154.35 643.973 99.8062 596.272 60.6072C548.571 21.4081 488.741 -0.0139573 427 6.82263e-06C324.164 6.82263e-06 234.85 58.3567 190.371 143.757C138.072 149.408 89.7058 174.188 54.5666 213.334C19.4275 252.479 -0.00610972 303.23 1.44087e-06 355.833C1.44087e-06 473.614 95.7192 569.333 213.5 569.333H676.083C774.293 569.333 854 489.627 854 391.417C854 297.477 781.054 221.328 688.537 214.923Z" fill="url(#cloudGradient)"/>
